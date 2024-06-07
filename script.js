@@ -22,6 +22,6 @@ fetch("https://jsonplaceholder.typicode.com/users", { method: "GET" })
     } else {
       const li = document.createElement("li");
       li.textContent = "Server Error";
-      divElement.appendChild(li);
+      ul.appendChild(li);
     }
   });
